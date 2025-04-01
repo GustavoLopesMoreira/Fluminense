@@ -2,6 +2,12 @@ body{
     background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(189, 189, 189));
     background-attachment: fixed;
 }
+div{
+    background-color: #f8f8f8;
+    width: 75vw;
+    margin: auto;
+
+}
 header{
     text-align: center;
     background-image: linear-gradient(to left, #00613C, white, #831d1c);
@@ -21,8 +27,46 @@ nav{
 }
 
 main{
-    background-color: white;
+    
     margin: auto;
-    height: 600px;
+    height: 70vw;
     width: 70vw;
+    padding: 15px;
+    text-align: justify;
+    font-size: 2em;
+}
+#história{
+    background-image: url(imagens/fluminense-x-nova-iguacu-foto-site.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+      
+}
+#hhistória{
+    background-color: rgba(0, 0, 0, 0.322);
+    color:white;
+    text-align: center;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+#phistória{
+    background-color: rgba(0, 0, 0, 0.507);
+    color:white
+}
+table{
+    border: 1px groove black;
+    border-collapse: collapse;
+
+}
+
+th{
+    background-color: lightgray;
+    border: 1px groove black;
+    padding: 20px;
+}
+td{
+    border: 1px groove black;
+    padding: 20px;
 }
