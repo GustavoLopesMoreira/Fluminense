@@ -6,7 +6,7 @@ body {
 #fundo {
     background-color: #f8f8f8;
     width: 75vw;
-    height: 75vw;
+    height: 98vw;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 1px 1px 1px;
@@ -36,11 +36,9 @@ nav {}
     padding: 20px;
     margin: auto;
     height: 900px;
-    width: 70vw;
+    width: 1800px;
     padding: 20px;
     text-align: justify;
-    font-size: 2em;
-
 }
 
 #hhistória {
@@ -50,16 +48,39 @@ nav {}
     width: 400px;
     text-align: center;
     margin: auto;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #phistória {
     background-color: rgba(0, 0, 0, 0.568);
     color: white;
     padding: 20px;
+    width: 1750px;
+    height: 800px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hnome {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+#pnome {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 1350;
+    margin: auto;
 }
 
 table {
-    border: 1px groove black;
+    border: 1px solid black;
     border-collapse: collapse;
 
 }
@@ -68,11 +89,13 @@ th {
     background-color: lightgray;
     border: 1px groove black;
     padding: 20px;
+
 }
 
 td {
     border: 1px groove black;
     padding: 20px;
+
 }
 
 h1 {
@@ -81,20 +104,17 @@ h1 {
 
 #container {
     column-count: 2;
-    column-gap: 300px;
-    margin: auto;
+    column-gap: 500px;
+    display: flex;
+    padding: 20px 300px;
 
 }
 
 #t1 {
-    border: 1px solid black;
-    width: 600px;
     padding: 20px;
-    margin-bottom: 300px;
+
 }
 
 #t2 {
-    border: 1px solid black;
-    width: 600px;
     padding: 20px;
 }
