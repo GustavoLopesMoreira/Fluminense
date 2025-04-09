@@ -1,120 +1,117 @@
-body {
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(189, 189, 189));
-    background-attachment: fixed;
+* {
+    margin: 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#fundo {
-    background-color: #f8f8f8;
-    width: 75vw;
-    height: 98vw;
-    margin: auto;
-    border-radius: 0px 0px 10px 10px;
-    box-shadow: 1px 1px 1px;
+body {
+    background-image: url(imagens/fluminense--pintura_7528_1280x960.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: auto;
 }
 
 header {
-    text-align: center;
-    background-image: linear-gradient(to left, #00613C, white, #831d1c);
+    background-image: linear-gradient(to left, #00804f, rgb(228, 228, 228), #9e2321);
     background-attachment: fixed;
-    height: 500px;
-    width: 80vw;
-    margin: auto;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.3em;
-}
-
-nav {}
-
-#história {
-    background-image: url(imagens/fluminense-x-nova-iguacu-foto-site.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-    margin: auto;
-    height: 900px;
-    width: 1800px;
-    padding: 20px;
-    text-align: justify;
-}
-
-#hhistória {
-    background-color: rgba(0, 0, 0, 0.473);
-    color: white;
     text-align: center;
-    width: 400px;
-    text-align: center;
+    border-radius: 30px;
+    width: 90vw;
+    min-height: 20vh;
+    max-height: 48vh;
     margin: auto;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#phistória {
-    background-color: rgba(0, 0, 0, 0.568);
-    color: white;
-    padding: 20px;
-    width: 1750px;
-    height: 800px;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#hnome {
-    font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px black;
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 2.4em;
 
 }
 
-#pnome {
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    text-align: justify;
-    background-color: rgba(0, 0, 0, 0.301);
-    width: 1350;
+div.container {
+    display: block;
+
+}
+
+ul {
+    display: block;
+    padding: 25px;
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 2em;
+    margin: 0px 45px 10px;
+
+}
+
+div.container>ul>li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container>ul>li>a:hover {
+    background-color: #831d1c;
+    border: 2px solid rgb(88, 88, 88);
+
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 3px;
     margin: auto;
-}
-
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
-
-}
-
-th {
-    background-color: lightgray;
-    border: 1px groove black;
-    padding: 20px;
-
-}
-
-td {
-    border: 1px groove black;
+    width: 80vw;
     padding: 20px;
 
 }
 
 h1 {
     text-align: center;
+    padding: 25px;
 }
 
-#container {
-    column-count: 2;
-    column-gap: 500px;
-    display: flex;
-    padding: 20px 300px;
-
+#história {
+    text-align: justify;
+    font-size: 1.2em;
 }
 
-#t1 {
+#nome {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#títulos {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: inline-block;
+    position: relative
+}
+
+th {
+    background-color: lightgray;
+    border: 1px groove black;
     padding: 20px;
-
 }
 
-#t2 {
+td {
+    border: 1px groove black;
     padding: 20px;
+}
+
+#escudos {
+    text-align: center;
+}
+footer{
+    background-color: #831d1c;
+    color: gold;
 }
